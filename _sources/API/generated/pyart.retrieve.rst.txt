@@ -25,15 +25,29 @@
     
     compute_cdr
     
+    compute_evp
+    
     compute_l
     
     compute_noisedBZ
     
+    compute_qvp
+    
+    compute_rqvp
+    
     compute_snr
+    
+    compute_svp
+    
+    compute_ts_along_coord
+    
+    compute_vp
     
     conv_strat_raut
     
     conv_strat_yuter
+    
+    create_cappi
     
     create_cfad
     
@@ -78,6 +92,8 @@
     spectra_moments
     
     steiner_conv_strat
+    
+    storm_relative_velocity
     
     texture_of_complex_phase
     

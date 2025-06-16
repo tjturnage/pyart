@@ -25,9 +25,10 @@ Modify a Colorbar for your Plot
 This is an example of how to modify a colobar
 within a Py-ART display object.
 
-.. GENERATED FROM PYTHON SOURCE LINES 10-21
+.. GENERATED FROM PYTHON SOURCE LINES 10-22
 
 .. code-block:: Python
+
 
     print(__doc__)
 
@@ -47,9 +48,10 @@ within a Py-ART display object.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 22-29
+.. GENERATED FROM PYTHON SOURCE LINES 23-31
 
-** Initial PPI Map Display
+Initial PPI Map Display
+-----------------------
 
 Let's plot a PPI Map Display
 and take a look at the colorbar
@@ -57,7 +59,7 @@ and take a look at the colorbar
 Notice: the colorbar is not perfect
 and slightly overlaps the PPI display
 
-.. GENERATED FROM PYTHON SOURCE LINES 29-78
+.. GENERATED FROM PYTHON SOURCE LINES 31-80
 
 .. code-block:: Python
 
@@ -85,7 +87,7 @@ and slightly overlaps the PPI display
         vmax=60,
         embellish=False,
         norm=None,
-        cmap="pyart_HomeyerRainbow",
+        cmap="HomeyerRainbow",
     )
 
     # Add gridlines
@@ -122,17 +124,18 @@ and slightly overlaps the PPI display
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 79-80
+.. GENERATED FROM PYTHON SOURCE LINES 81-86
 
-** Colorbar Position / Title Manipulation
+Colorbar Position / Title Manipulation
+--------------------------------------
 
-.. GENERATED FROM PYTHON SOURCE LINES 80-131
+Now, let's update the colorbar position
+to match the display
+
+.. GENERATED FROM PYTHON SOURCE LINES 86-134
 
 .. code-block:: Python
 
-
-    # Now, let's update the colorbar position
-    # to match the display
 
     # Define figure
     fig = plt.figure()
@@ -152,7 +155,7 @@ and slightly overlaps the PPI display
         vmax=60,
         embellish=False,
         norm=None,
-        cmap="pyart_HomeyerRainbow",
+        cmap="HomeyerRainbow",
     )
 
     # Add gridlines
@@ -196,7 +199,7 @@ and slightly overlaps the PPI display
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 3.105 seconds)
+   **Total running time of the script:** (0 minutes 3.118 seconds)
 
 
 .. _sphx_glr_download_examples_plotting_plot_modify_colorbar.py:
@@ -212,6 +215,10 @@ and slightly overlaps the PPI display
     .. container:: sphx-glr-download sphx-glr-download-python
 
       :download:`Download Python source code: plot_modify_colorbar.py <plot_modify_colorbar.py>`
+
+    .. container:: sphx-glr-download sphx-glr-download-zip
+
+      :download:`Download zipped: plot_modify_colorbar.zip <plot_modify_colorbar.zip>`
 
 
 .. only:: html
