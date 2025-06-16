@@ -7,6 +7,7 @@ An example which creates a RHI plot of a CF/Radial file using
 a RadarDisplay object.
 
 """
+
 print(__doc__)
 
 import matplotlib.pyplot as plt
@@ -39,7 +40,7 @@ display.plot(
     mask_outside=True,
     title="RHI",
     axislabels=(xlabel, ylabel),
-    cmap="pyart_HomeyerRainbow",
+    cmap="HomeyerRainbow",
     colorbar_label=colorbar_label,
     ax=ax,
 )
